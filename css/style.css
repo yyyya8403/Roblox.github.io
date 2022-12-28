@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Josefin+Sans:wght@100&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.blurBg{
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    font-size: 32px;
+    line-height: 350px;
+    background: url(https://media1.tenor.com/images/0b4e6519142fef1408714f480478c619/tenor.gif?itemid=27303939) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+  }
+.blurBg:before{
+    content: '';
+    background: inherit;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.flowing {
+    margin:2em auto;
+    padding:2em;
+    border:solid 2px #96acaa;
+    text-align: center;
+    position: relative; top: 20px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    font-size: 90px;
+    font-weight: bold;
+    color: #ff6347;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: flowing-anim 2.6s;
+  }
+  
+  @keyframes flowing-anim {
+   0%{
+       text-align: center; 
+       width: 0%;
+     }
+  100%{
+        text-align: center;
+       width: 100%;
+     }
+  }
+
+.jpgtext{
+    position: relative;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.Robloxabout{
+    height: 820px;
+    border:solid 2px #96acaa;
+    position: relative; top:25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: center;
+    font-size: 5em;
+    transition: all 0.2s;
+}
+.Robloxabout:hover{
+    color: #000000;
+    font-size: 80px;
+    font-weight: bold;
+}
+  
+.container {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.square1{
+    position: relative; top: 130px;
+    position: relative; left: 150px;
+    width: 650px;
+    height: 80px;
+    background: #0091EA;
+    padding: 16px;
+    color: white;
+    transition: all 0.2s;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+  }
+
+.square1:hover{
+    transform: scale(1.3, 1.3);
+}
+
+.square2{
+    position: relative; top: 130px;
+    position: relative; left: 290px;
+    width: 650px;
+    height: 80px;
+    background: #0091EA;
+    padding: 16px;
+    color: white;
+    transition: all 0.2s;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+}
+
+.square2:hover{
+    transform: scale(1.3, 1.3);
+}
+
+.sonota{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    position: relative; top: 400px;
+    height: 820px;
+    border:solid 2px #96acaa;
+}
