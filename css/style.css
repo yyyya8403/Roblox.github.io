@@ -123,6 +123,7 @@ a{
 }
 
 .sonota{
+    position: relative; top:25px;
     font-family: 'Alegreya Sans SC', sans-serif;
     position: relative; top: 400px;
     height: 820px;
